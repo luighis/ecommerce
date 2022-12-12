@@ -4,6 +4,7 @@ const nextConfig = {
   swcMinify: true,
    images: {
     formats: ['image/jpg', 'image/webp'],
+     domains: ['https://ecommerce-dango.netlify.app/'],
   },
 }
 
