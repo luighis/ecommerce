@@ -1,11 +1,8 @@
-import { Dispatch, SetStateAction } from 'react';
+import { ReactNode } from 'react';
+import { productProps } from '~/types';
 
-export interface productProps {
-  title: string;
-  price: string;
-  description: string;
-  img_src: string;
+export interface productItemProps extends productProps {
   fontSize: number;
-  setQuantityProducts: Dispatch<SetStateAction<number>>;
-  amount: number;
+  inputAmount: ReactNode;
+  inputTitle: ReactNode;
 }
