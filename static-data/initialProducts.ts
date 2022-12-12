@@ -5,7 +5,7 @@ export const initialProducts = [
     price: '12.00',
     description:
       'Recharge your skin with the super energizing power of finely crushed tourmaline powder blended with natural complexion',
-    img_src: '../public/img/product-a.jpg',
+    img_src: '/../public/img/product-a.jpg',
     amount: 10,
   },
   {
@@ -14,7 +14,7 @@ export const initialProducts = [
     price: '12.00',
     description:
       'Recharge your skin with the super energizing power of finely crushed tourmaline powder blended with natural complexion',
-    img_src: '../public/img/product-b.jpg',
+    img_src: '/../public/img/product-b.jpg',
     amount: 1,
   },
   {
@@ -23,7 +23,7 @@ export const initialProducts = [
     price: '12.00',
     description:
       'Recharge your skin with the super energizing power of finely crushed tourmaline powder blended with natural complexion',
-    img_src: '../public/img/product-c.jpg',
+    img_src: '/../public/img/product-c.jpg',
     amount: 1,
   },
   {
@@ -32,7 +32,7 @@ export const initialProducts = [
     price: '12.00',
     description:
       'Recharge your skin with the super energizing power of finely crushed tourmaline powder blended with natural complexion',
-    img_src: '../public/img/product-d.jpg',
+    img_src: '/../public/img/product-d.jpg',
     amount: 1,
   },
 ];
